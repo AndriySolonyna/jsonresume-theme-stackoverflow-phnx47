@@ -1,8 +1,8 @@
-# Stack Overflow theme for jsonresume [![npm version](https://badge.fury.io/js/jsonresume-theme-stackoverflow.svg)](http://badge.fury.io/js/jsonresume-theme-stackoverflow)
-
-**Printable version with custom CSS**
+# Stack Overflow theme for jsonresume 
 
 [DEMO](https://themes.jsonresume.org/theme/stackoverflow)
+
+Forked from [jsonresume-theme-stackoverflow-ibic](https://github.com/houtianze/jsonresume-theme-stackoverflow-ibic)
 
 ## Getting started
 
@@ -14,7 +14,7 @@ The official [resume-cli](https://github.com/jsonresume/resume-cli) to run the d
 
 Go ahead and install it:
 
-```
+```sh
 npm install -g resume-cli
 ```
 
@@ -22,21 +22,14 @@ npm install -g resume-cli
 
 Clone the repository
 
-```
-git clone https://github.com/francescoes/jsonresume-theme-stackoverflow.git
+```sh
+npm install git+https://gitlab.com/phnx47/jsonresume-theme-stackoverflow-phnx47.git
 ```
 
 And simply run:
 
-```
-resume serve
-```
-
-You should now see this message:
-
-```
-Preview: http://localhost:4000
-Press ctrl-c to stop
+```sh
+resume export resume.html --theme stackoverflow-phnx47
 ```
 
 To build your own resume, create a 'resume.json' file in the current folder and follow the [json resume schema](https://jsonresume.org/schema/)
@@ -58,30 +51,25 @@ With stackoverflow theme it is possible to add:
 - `location` to each 'work', 'education' and 'volunteer' item
 - `birth` to 'basics'
 
-example of the extra `location` object: 
+example of the extra `location` object:
 
-```
+```json
 "location": {
   "city": "Zürich",
   "countryCode": "CH",
   "region": "Switzerland"
 } 
 ```
+
 example of the extra `birth` object:
 
-```
+```json
 "birth": {
   "place": "New York",
   "state": "USA",
   "date": "1988"
 }
 ```
-
-## Contribution
-
-Fork the project, add your feature (or fix your bug) and open a pull request OR
-
-[Open an issue](https://github.com/francescoes/jsonresume-theme-stackoverflow/issues/new) if you find find or if you would like to have extra fields or changes 
 
 ## License
 
