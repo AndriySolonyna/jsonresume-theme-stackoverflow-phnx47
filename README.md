@@ -23,7 +23,7 @@ npm install -g resume-cli
 Clone the repository
 
 ```sh
-npm install git+https://gitlab.com/phnx47/jsonresume-theme-stackoverflow-phnx47.git
+npm install git+https://github.com/phnx47/jsonresume-theme-stackoverflow-phnx47.git
 ```
 
 And simply run:
