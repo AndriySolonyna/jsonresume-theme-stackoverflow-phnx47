@@ -8,12 +8,12 @@
     {{#each resume.education}}
     <section class="education-item">
       {{#if summary}}
-        {{#if @first}}
-        <input id="education-item-{{@index}}" type="checkbox" class="toggle-item" checked="checked" />
-        {{else}}
-        <input id="education-item-{{@index}}" type="checkbox" class="toggle-item" />
-        {{/if}}
-        <label for="education-item-{{@index}}"></label>
+      {{#if @first}}
+      <input id="education-item-{{@index}}" type="checkbox" class="toggle-item" checked="checked" />
+      {{else}}
+      <input id="education-item-{{@index}}" type="checkbox" class="toggle-item" />
+      {{/if}}
+      <label for="education-item-{{@index}}"></label>
       {{/if}}
       <header class="clear">
         <div class="header-left">
@@ -36,16 +36,16 @@
         <div class="date">
           {{#if startDate}}
           <span class="startDate">
-          {{Y startDate}}
+            {{Y startDate}}
           </span>
           {{/if}}
           {{#if endDate}}
           <span class="endDate">
-          - {{Y endDate}}
+            - {{Y endDate}}
           </span>
           {{else}}
           <span class="endDate">
-          - Current
+            - Current
           </span>
           {{/if}}
         </div>
@@ -81,7 +81,7 @@
         </div>
         {{/if}}
         {{#if summary}}
-          <div class="summary">{{paragraphSplit summary}}</div>
+        <div class="summary">{{paragraphSplit summary}}</div>
         {{/if}}
       </div>
     </section>
