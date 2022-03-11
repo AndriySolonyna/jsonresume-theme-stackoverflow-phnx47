@@ -1,11 +1,11 @@
 {
-  "name": "jsonresume-theme-stackoverflow-phnx47",
-  "version": "1.5.0",
+  "name": "jsonresume-theme-stackoverflow-asolon",
+  "version": "1.6.0",
   "description": "Stack Overflow theme for JSON Resume",
-  "author": "Serge K <serge.k@fastmail.com>",
+  "author": "Andriy S <andreikaif@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/phnx47/jsonresume-theme-stackoverflow-phnx47"
+    "url": "https://github.com/AndriySolonyna/jsonresume-theme-stackoverflow-phnx47"
   },
   "license": "MIT",
   "main": "index.js",

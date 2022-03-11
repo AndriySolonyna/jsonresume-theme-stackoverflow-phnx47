@@ -544,7 +544,7 @@ section .location {
 }
 
 .level.intermediate .bar::after {
-  background: #ffdf1f;
+  background: #5C8AB8;
   width: 5em;
 }
 
